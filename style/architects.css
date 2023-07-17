@@ -20,7 +20,7 @@ header{
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
 }
-.nav-container{
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,10 +30,10 @@ header{
     font-size:25px;
     color:  #131313;
 }
-.nav-container ul{
+nav ul{
     display: flex;
 }
-.nav-container li{
+nav li{
   list-style: none;
   margin-right: 30px;
   font-size: 20px;
@@ -41,7 +41,7 @@ header{
   
     
 }
-.nav-container li a{
+nav li a{
     text-decoration: none;
     color:  #424242;
 }
@@ -66,4 +66,25 @@ header{
 .banner img{
     width: 100%;
     margin-top: 50px;
+}
+
+/* Responsive media queries */
+/* Mobile Device */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* tablet mideam Device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
