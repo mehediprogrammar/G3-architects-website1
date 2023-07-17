@@ -71,12 +71,14 @@ nav li a{
 /* this is a main section style start */
 
   main{
+
       max-width: 876px;
       margin: 0 auto;
   }
   .teams-container{
     display: flex;
     align-items: center;
+    margin-top: 130px;
   }
   .teams-img-container{
 
@@ -85,11 +87,35 @@ nav li a{
     gap: 20px;
   }
   .teams-img-container img{
-   width: 342px;
-   height: 342px;
+   width: 250px;
+   height: 240px;
     
   }
 
+  .team-content{
+    padding-left: 60px;
+    padding-right: 70px;
+  }
+  .team-title{
+    font-size: 2.8rem;
+  }
+.Quick-list{
+    color: #727272;
+    font-weight: 700;
+}
+.of-our{
+    color: #131313;
+    font-weight: 700;
+}
+.Features{
+    color: #FF900E;
+    font-weight: 700;
+}
+.team-discription{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
 /* Responsive media queries */
 /* Mobile Device */
 @media screen and (max-width:576px) {
