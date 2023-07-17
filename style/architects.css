@@ -72,13 +72,13 @@ nav li a{
 
   main{
 
-      max-width: 876px;
+      max-width: 850px;
       margin: 0 auto;
   }
   .teams-container{
     display: flex;
     align-items: center;
-    margin-top: 130px;
+      margin-top: 130px;
   }
   .teams-img-container{
 
@@ -93,7 +93,7 @@ nav li a{
   }
 
   .team-content{
-    padding-left: 60px;
+    padding-left: 70px;
     padding-right: 70px;
   }
   .team-title{
@@ -122,8 +122,14 @@ nav li a{
     header{
         padding: 20px;
     }
-    nav{
+    nav,
+    .teams-container
+    
+    {
         flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -132,7 +138,14 @@ nav li a{
     header{
         padding: 50px;
     }
-    nav{
+    nav,
+    .teams-container
+    
+    {
         flex-direction: column;
+    }
+
+    .teams-img-container{
+        grid-template-columns: 1fr;
     }
 }
