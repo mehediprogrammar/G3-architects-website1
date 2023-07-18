@@ -187,6 +187,25 @@ nav li a{
 .our-sponspors-img img{
     width: 336px;
 }
+/* our sponspors section END  */
+ 
+
+/* footer section start */
+
+.footer{
+    border-radius: 8px;
+background: #FFF4E7;
+padding: 2%;
+margin-top: 150px;
+margin-bottom: 150px;
+}
+.footer h3{
+    text-align: center;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 /* Responsive media queries */
 /* Mobile Device */
 @media screen and (max-width:576px) {
