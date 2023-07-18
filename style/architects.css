@@ -134,8 +134,8 @@ nav li a{
     
 }
 .img-version  img{
-width: 500px;
-height: 900px;
+margin-left: 30px;
+height: 50%;
 
 
 }
@@ -151,13 +151,33 @@ height: 900px;
 }
 .Mobile{
     width: 315px;
-     height: 171px;
+     
       flex-shrink: 0;
       border-radius: 8px;
   background: #FFF;
    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-   text-align: center;
+   
 }
+.years{
+    width: 342px;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 40px;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+.years h3{
+  font-size: 4rem;
+  margin: 0;
+ 
+}
+.years p{
+    font-size: 2rem;
+}
+
+
 #Version{
     font-size: 18px;
     color: #131313;
@@ -270,6 +290,14 @@ margin-bottom: 150px;
     {
         flex-direction: column;
     }
+    .img-version  img{
+        width: 90%;
+        margin-left: 0;
+    }
+    .years{
+        position: static;
+        max-width: 300px;
+    }
     .teams-img-container{
         grid-template-columns: 1fr;
     }
@@ -289,7 +317,8 @@ margin-bottom: 150px;
     .teams-container,
     .some-facts-content,
     .our-sponspors-img
-    .Gurp-content
+   
+    .img-version
     {
         flex-direction: column;
     }
